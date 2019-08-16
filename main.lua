@@ -32,7 +32,6 @@ function numberToKanji(n)
     local fourth = string.sub(rev, 4, 4)
     local dateString = ""    
 
-    print(rev, first, second, third, fourth)
 
     if i_n > 1000 then
         dateString = dateString .. NUMBER[tonumber(fourth)] .. THOUSAND
